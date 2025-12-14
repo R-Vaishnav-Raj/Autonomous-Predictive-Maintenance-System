@@ -1,5 +1,6 @@
 """Technician Skill Matcher Agent - Assigns appropriate technicians."""
 from google.adk.agents import Agent
+from ..config import MODEL
 from ..tools.scheduling_tools import (
     get_technicians,
     assign_technician,
@@ -7,7 +8,7 @@ from ..tools.scheduling_tools import (
 
 technician_matcher_agent = Agent(
     name="technician_matcher_agent",
-    model="gemini-2.5-flash",
+    model=MODEL,
     description=(
         "Matches predicted repair needs with technician expertise and "
         "availability. Ensures the right technician with appropriate skills "

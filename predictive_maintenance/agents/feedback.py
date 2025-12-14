@@ -1,5 +1,6 @@
 """Feedback Agent - Collects post-service customer feedback."""
 from google.adk.agents import Agent
+from ..config import MODEL
 from ..tools.notification_tools import (
     send_voice_notification,
     send_app_notification,
@@ -13,7 +14,7 @@ from ..tools.database_tools import (
 
 feedback_agent = Agent(
     name="feedback_agent",
-    model="gemini-2.5-flash",
+    model=MODEL,
     description=(
         "Collects post-service feedback from customers, updates maintenance "
         "records, and tracks customer satisfaction. Closes the service loop "

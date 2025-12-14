@@ -1,5 +1,6 @@
 """Manufacturing Quality Insights Agent - RCA/CAPA analysis for manufacturing."""
 from google.adk.agents import Agent
+from ..config import MODEL
 from ..tools.database_tools import (
     get_capa_records,
     get_maintenance_history,
@@ -9,7 +10,7 @@ from ..tools.telemetry_tools import get_all_vehicles_status
 
 manufacturing_insights_agent = Agent(
     name="manufacturing_insights_agent",
-    model="gemini-2.5-flash",
+    model=MODEL,
     description=(
         "Performs Root Cause Analysis and generates Corrective/Preventive Action "
         "recommendations by analyzing predicted failures, maintenance patterns, "

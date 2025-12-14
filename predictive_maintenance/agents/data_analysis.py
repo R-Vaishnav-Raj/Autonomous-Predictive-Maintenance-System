@@ -1,5 +1,6 @@
 """Data Analysis Agent - Processes vehicle telemetry to detect anomalies."""
 from google.adk.agents import Agent
+from ..config import MODEL
 from ..tools.telemetry_tools import (
     get_vehicle_telemetry,
     get_sensor_history,
@@ -9,7 +10,7 @@ from ..tools.telemetry_tools import (
 
 data_analysis_agent = Agent(
     name="data_analysis_agent",
-    model="gemini-2.5-flash",
+    model=MODEL,
     description=(
         "Analyzes real-time vehicle telemetry data and historical sensor readings "
         "to detect anomalies, early warning signs, and patterns indicating potential "

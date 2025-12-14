@@ -1,5 +1,6 @@
 """Master Agent - Central Orchestrator for Predictive Maintenance System."""
 from google.adk.agents import Agent
+from .config import MODEL
 from .agents import (
     data_analysis_agent,
     diagnosis_agent,
@@ -19,7 +20,7 @@ from .agents import (
 # Root agent is the Master orchestrator
 root_agent = Agent(
     name="master_agent",
-    model="gemini-2.5-flash",
+    model=MODEL,
     description=(
         "Master Orchestrator for the Autonomous Predictive Maintenance System. "
         "Coordinates 13 specialized worker agents to handle end-to-end vehicle "

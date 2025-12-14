@@ -1,5 +1,6 @@
 """UEBA Security Agent - Monitors agent behavior for anomalies."""
 from google.adk.agents import Agent
+from ..config import MODEL
 from datetime import datetime
 from typing import Dict, List
 
@@ -148,7 +149,7 @@ def get_security_report() -> dict:
 
 ueba_security_agent = Agent(
     name="ueba_security_agent",
-    model="gemini-2.5-flash",
+    model=MODEL,
     description=(
         "Monitors all agent activities using User and Entity Behavior Analytics. "
         "Detects anomalous behavior, unauthorized access attempts, and policy "

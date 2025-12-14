@@ -1,5 +1,6 @@
 """Scheduling Agent - Manages appointment booking and coordination."""
 from google.adk.agents import Agent
+from ..config import MODEL
 from ..tools.scheduling_tools import (
     get_available_slots,
     book_appointment,
@@ -14,7 +15,7 @@ from ..tools.database_tools import get_vehicle_info
 
 scheduling_agent = Agent(
     name="scheduling_agent",
-    model="gemini-2.5-flash",
+    model=MODEL,
     description=(
         "Manages service appointment scheduling by finding available slots, "
         "matching customer preferences, booking appointments, and sending "

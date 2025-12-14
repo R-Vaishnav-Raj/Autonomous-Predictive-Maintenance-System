@@ -1,11 +1,12 @@
 """Forecasting Agent - Predicts service demand and workload trends."""
 from google.adk.agents import Agent
+from ..config import MODEL
 from ..tools.telemetry_tools import get_all_vehicles_status
 from ..tools.database_tools import get_maintenance_history
 
 forecasting_agent = Agent(
     name="forecasting_agent",
-    model="gemini-2.5-flash",
+    model=MODEL,
     description=(
         "Predicts service demand trends and workload patterns using historical "
         "maintenance data and fleet health status. Helps optimize service "
