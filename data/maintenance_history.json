@@ -1,0 +1,192 @@
+[
+    {
+        "record_id": "MR001",
+        "vehicle_id": "VH001",
+        "date": "2024-06-15",
+        "service_type": "scheduled_maintenance",
+        "mileage_at_service": 20000,
+        "components_serviced": [
+            "engine_oil",
+            "oil_filter",
+            "air_filter"
+        ],
+        "issues_found": [],
+        "dtc_codes": [],
+        "technician_id": "TECH001",
+        "service_center_id": "SC001",
+        "cost_inr": 5500,
+        "notes": "Regular 20K service completed. Vehicle in good condition."
+    },
+    {
+        "record_id": "MR002",
+        "vehicle_id": "VH002",
+        "date": "2024-08-22",
+        "service_type": "repair",
+        "mileage_at_service": 42000,
+        "components_serviced": [
+            "brake_pads_front",
+            "brake_discs_front"
+        ],
+        "issues_found": [
+            "brake_pad_wear_excessive"
+        ],
+        "dtc_codes": [],
+        "technician_id": "TECH003",
+        "service_center_id": "SC002",
+        "cost_inr": 12000,
+        "notes": "Front brake pads worn beyond limit. Replaced pads and discs."
+    },
+    {
+        "record_id": "MR003",
+        "vehicle_id": "VH004",
+        "date": "2024-05-10",
+        "service_type": "repair",
+        "mileage_at_service": 58000,
+        "components_serviced": [
+            "battery"
+        ],
+        "issues_found": [
+            "battery_degradation"
+        ],
+        "dtc_codes": [
+            "P0562"
+        ],
+        "technician_id": "TECH002",
+        "service_center_id": "SC003",
+        "cost_inr": 8500,
+        "notes": "Battery showing low voltage. Replaced with new battery."
+    },
+    {
+        "record_id": "MR004",
+        "vehicle_id": "VH006",
+        "date": "2024-09-05",
+        "service_type": "scheduled_maintenance",
+        "mileage_at_service": 90000,
+        "components_serviced": [
+            "engine_oil",
+            "oil_filter",
+            "air_filter",
+            "fuel_filter",
+            "spark_plugs"
+        ],
+        "issues_found": [
+            "coolant_level_low"
+        ],
+        "dtc_codes": [],
+        "technician_id": "TECH001",
+        "service_center_id": "SC004",
+        "cost_inr": 15000,
+        "notes": "90K major service. Topped up coolant, recommended coolant system check at next visit."
+    },
+    {
+        "record_id": "MR005",
+        "vehicle_id": "VH003",
+        "date": "2024-07-18",
+        "service_type": "scheduled_maintenance",
+        "mileage_at_service": 15000,
+        "components_serviced": [
+            "engine_oil",
+            "oil_filter"
+        ],
+        "issues_found": [],
+        "dtc_codes": [],
+        "technician_id": "TECH004",
+        "service_center_id": "SC001",
+        "cost_inr": 4500,
+        "notes": "First paid service completed. All systems normal."
+    },
+    {
+        "record_id": "MR006",
+        "vehicle_id": "VH005",
+        "date": "2024-04-12",
+        "service_type": "repair",
+        "mileage_at_service": 35000,
+        "components_serviced": [
+            "ac_compressor"
+        ],
+        "issues_found": [
+            "ac_not_cooling"
+        ],
+        "dtc_codes": [],
+        "technician_id": "TECH005",
+        "service_center_id": "SC002",
+        "cost_inr": 22000,
+        "notes": "AC compressor failure. Replaced under extended warranty."
+    },
+    {
+        "record_id": "MR007",
+        "vehicle_id": "VH009",
+        "date": "2024-10-01",
+        "service_type": "repair",
+        "mileage_at_service": 52000,
+        "components_serviced": [
+            "suspension_front_left",
+            "suspension_front_right"
+        ],
+        "issues_found": [
+            "suspension_noise",
+            "strut_leak"
+        ],
+        "dtc_codes": [],
+        "technician_id": "TECH006",
+        "service_center_id": "SC005",
+        "cost_inr": 28000,
+        "notes": "Front suspension struts leaking. Replaced both sides."
+    },
+    {
+        "record_id": "MR008",
+        "vehicle_id": "VH008",
+        "date": "2024-03-20",
+        "service_type": "scheduled_maintenance",
+        "mileage_at_service": 25000,
+        "components_serviced": [
+            "engine_oil",
+            "oil_filter",
+            "air_filter",
+            "cabin_filter"
+        ],
+        "issues_found": [],
+        "dtc_codes": [],
+        "technician_id": "TECH003",
+        "service_center_id": "SC006",
+        "cost_inr": 7500,
+        "notes": "Standard 25K service. Vehicle running smoothly."
+    },
+    {
+        "record_id": "MR009",
+        "vehicle_id": "VH002",
+        "date": "2024-03-15",
+        "service_type": "scheduled_maintenance",
+        "mileage_at_service": 30000,
+        "components_serviced": [
+            "engine_oil",
+            "oil_filter",
+            "transmission_fluid"
+        ],
+        "issues_found": [
+            "tyre_wear_uneven"
+        ],
+        "dtc_codes": [],
+        "technician_id": "TECH002",
+        "service_center_id": "SC002",
+        "cost_inr": 9500,
+        "notes": "30K service. Recommended wheel alignment due to uneven tyre wear."
+    },
+    {
+        "record_id": "MR010",
+        "vehicle_id": "VH007",
+        "date": "2024-11-10",
+        "service_type": "scheduled_maintenance",
+        "mileage_at_service": 10000,
+        "components_serviced": [
+            "engine_oil",
+            "oil_filter"
+        ],
+        "issues_found": [],
+        "dtc_codes": [],
+        "technician_id": "TECH007",
+        "service_center_id": "SC007",
+        "cost_inr": 4000,
+        "notes": "10K free service completed. All parameters within normal range."
+    }
+]

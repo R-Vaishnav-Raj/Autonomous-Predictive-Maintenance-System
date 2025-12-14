@@ -1,0 +1,357 @@
+{
+    "VH001": {
+        "vehicle_id": "VH001",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 92,
+            "rpm": 2500,
+            "oil_pressure_psi": 35,
+            "oil_level_percent": 85,
+            "coolant_temp_celsius": 88,
+            "coolant_level_percent": 90
+        },
+        "battery": {
+            "voltage": 12.6,
+            "health_percent": 95,
+            "charging_status": "normal"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 70,
+            "rear_pad_wear_percent": 75,
+            "brake_fluid_level_percent": 85
+        },
+        "tyres": {
+            "front_left_pressure_psi": 32,
+            "front_right_pressure_psi": 32,
+            "rear_left_pressure_psi": 30,
+            "rear_right_pressure_psi": 30,
+            "tread_depth_mm": 5.5
+        },
+        "transmission": {
+            "fluid_temp_celsius": 75,
+            "fluid_level_percent": 95
+        },
+        "status": "normal"
+    },
+    "VH002": {
+        "vehicle_id": "VH002",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 105,
+            "rpm": 3200,
+            "oil_pressure_psi": 28,
+            "oil_level_percent": 65,
+            "coolant_temp_celsius": 102,
+            "coolant_level_percent": 60
+        },
+        "battery": {
+            "voltage": 12.2,
+            "health_percent": 78,
+            "charging_status": "normal"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 85,
+            "rear_pad_wear_percent": 80,
+            "brake_fluid_level_percent": 70
+        },
+        "tyres": {
+            "front_left_pressure_psi": 28,
+            "front_right_pressure_psi": 29,
+            "rear_left_pressure_psi": 30,
+            "rear_right_pressure_psi": 30,
+            "tread_depth_mm": 3.0
+        },
+        "transmission": {
+            "fluid_temp_celsius": 85,
+            "fluid_level_percent": 80
+        },
+        "status": "warning",
+        "alerts": [
+            "engine_temp_high",
+            "coolant_low",
+            "oil_level_low",
+            "brake_pad_wear_high"
+        ]
+    },
+    "VH003": {
+        "vehicle_id": "VH003",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 88,
+            "rpm": 1800,
+            "oil_pressure_psi": 40,
+            "oil_level_percent": 92,
+            "coolant_temp_celsius": 85,
+            "coolant_level_percent": 95
+        },
+        "battery": {
+            "voltage": 12.8,
+            "health_percent": 98,
+            "charging_status": "normal"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 15,
+            "rear_pad_wear_percent": 18,
+            "brake_fluid_level_percent": 97
+        },
+        "tyres": {
+            "front_left_pressure_psi": 33,
+            "front_right_pressure_psi": 33,
+            "rear_left_pressure_psi": 31,
+            "rear_right_pressure_psi": 31,
+            "tread_depth_mm": 7.0
+        },
+        "transmission": {
+            "fluid_temp_celsius": 70,
+            "fluid_level_percent": 100
+        },
+        "status": "normal"
+    },
+    "VH004": {
+        "vehicle_id": "VH004",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 95,
+            "rpm": 2800,
+            "oil_pressure_psi": 32,
+            "oil_level_percent": 75,
+            "coolant_temp_celsius": 90,
+            "coolant_level_percent": 82
+        },
+        "battery": {
+            "voltage": 11.8,
+            "health_percent": 55,
+            "charging_status": "weak"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 55,
+            "rear_pad_wear_percent": 50,
+            "brake_fluid_level_percent": 80
+        },
+        "tyres": {
+            "front_left_pressure_psi": 30,
+            "front_right_pressure_psi": 31,
+            "rear_left_pressure_psi": 29,
+            "rear_right_pressure_psi": 29,
+            "tread_depth_mm": 4.0
+        },
+        "transmission": {
+            "fluid_temp_celsius": 78,
+            "fluid_level_percent": 88
+        },
+        "status": "warning",
+        "alerts": [
+            "battery_degraded"
+        ]
+    },
+    "VH005": {
+        "vehicle_id": "VH005",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 90,
+            "rpm": 2200,
+            "oil_pressure_psi": 38,
+            "oil_level_percent": 88,
+            "coolant_temp_celsius": 86,
+            "coolant_level_percent": 92
+        },
+        "battery": {
+            "voltage": 12.5,
+            "health_percent": 88,
+            "charging_status": "normal"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 40,
+            "rear_pad_wear_percent": 45,
+            "brake_fluid_level_percent": 88
+        },
+        "tyres": {
+            "front_left_pressure_psi": 32,
+            "front_right_pressure_psi": 32,
+            "rear_left_pressure_psi": 30,
+            "rear_right_pressure_psi": 30,
+            "tread_depth_mm": 5.0
+        },
+        "transmission": {
+            "fluid_temp_celsius": 72,
+            "fluid_level_percent": 95
+        },
+        "status": "normal"
+    },
+    "VH006": {
+        "vehicle_id": "VH006",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 118,
+            "rpm": 3500,
+            "oil_pressure_psi": 22,
+            "oil_level_percent": 45,
+            "coolant_temp_celsius": 115,
+            "coolant_level_percent": 35
+        },
+        "battery": {
+            "voltage": 12.0,
+            "health_percent": 70,
+            "charging_status": "normal"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 65,
+            "rear_pad_wear_percent": 60,
+            "brake_fluid_level_percent": 75
+        },
+        "tyres": {
+            "front_left_pressure_psi": 28,
+            "front_right_pressure_psi": 27,
+            "rear_left_pressure_psi": 28,
+            "rear_right_pressure_psi": 28,
+            "tread_depth_mm": 2.5
+        },
+        "transmission": {
+            "fluid_temp_celsius": 95,
+            "fluid_level_percent": 70
+        },
+        "status": "critical",
+        "alerts": [
+            "engine_overheating",
+            "coolant_critical",
+            "oil_low_critical",
+            "tyre_wear_critical"
+        ]
+    },
+    "VH007": {
+        "vehicle_id": "VH007",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 85,
+            "rpm": 1500,
+            "oil_pressure_psi": 42,
+            "oil_level_percent": 98,
+            "coolant_temp_celsius": 82,
+            "coolant_level_percent": 98
+        },
+        "battery": {
+            "voltage": 12.9,
+            "health_percent": 99,
+            "charging_status": "normal"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 10,
+            "rear_pad_wear_percent": 12,
+            "brake_fluid_level_percent": 98
+        },
+        "tyres": {
+            "front_left_pressure_psi": 33,
+            "front_right_pressure_psi": 33,
+            "rear_left_pressure_psi": 31,
+            "rear_right_pressure_psi": 31,
+            "tread_depth_mm": 8.0
+        },
+        "transmission": {
+            "fluid_temp_celsius": 68,
+            "fluid_level_percent": 100
+        },
+        "status": "excellent"
+    },
+    "VH008": {
+        "vehicle_id": "VH008",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 91,
+            "rpm": 2100,
+            "oil_pressure_psi": 36,
+            "oil_level_percent": 82,
+            "coolant_temp_celsius": 87,
+            "coolant_level_percent": 88
+        },
+        "battery": {
+            "voltage": 12.4,
+            "health_percent": 85,
+            "charging_status": "normal"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 35,
+            "rear_pad_wear_percent": 38,
+            "brake_fluid_level_percent": 85
+        },
+        "tyres": {
+            "front_left_pressure_psi": 31,
+            "front_right_pressure_psi": 32,
+            "rear_left_pressure_psi": 30,
+            "rear_right_pressure_psi": 30,
+            "tread_depth_mm": 5.5
+        },
+        "transmission": {
+            "fluid_temp_celsius": 74,
+            "fluid_level_percent": 92
+        },
+        "status": "normal"
+    },
+    "VH009": {
+        "vehicle_id": "VH009",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 94,
+            "rpm": 2600,
+            "oil_pressure_psi": 33,
+            "oil_level_percent": 78,
+            "coolant_temp_celsius": 89,
+            "coolant_level_percent": 85
+        },
+        "battery": {
+            "voltage": 12.3,
+            "health_percent": 82,
+            "charging_status": "normal"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 50,
+            "rear_pad_wear_percent": 48,
+            "brake_fluid_level_percent": 82
+        },
+        "tyres": {
+            "front_left_pressure_psi": 30,
+            "front_right_pressure_psi": 30,
+            "rear_left_pressure_psi": 29,
+            "rear_right_pressure_psi": 29,
+            "tread_depth_mm": 4.5
+        },
+        "transmission": {
+            "fluid_temp_celsius": 76,
+            "fluid_level_percent": 90
+        },
+        "status": "normal"
+    },
+    "VH010": {
+        "vehicle_id": "VH010",
+        "timestamp": "2024-12-14T12:00:00+05:30",
+        "engine": {
+            "temperature_celsius": 86,
+            "rpm": 1600,
+            "oil_pressure_psi": 41,
+            "oil_level_percent": 96,
+            "coolant_temp_celsius": 83,
+            "coolant_level_percent": 97
+        },
+        "battery": {
+            "voltage": 12.8,
+            "health_percent": 97,
+            "charging_status": "normal"
+        },
+        "brakes": {
+            "front_pad_wear_percent": 8,
+            "rear_pad_wear_percent": 10,
+            "brake_fluid_level_percent": 99
+        },
+        "tyres": {
+            "front_left_pressure_psi": 33,
+            "front_right_pressure_psi": 33,
+            "rear_left_pressure_psi": 31,
+            "rear_right_pressure_psi": 31,
+            "tread_depth_mm": 8.0
+        },
+        "transmission": {
+            "fluid_temp_celsius": 65,
+            "fluid_level_percent": 100
+        },
+        "status": "excellent"
+    }
+}

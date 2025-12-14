@@ -1,0 +1,158 @@
+[
+    {
+        "capa_id": "CAPA001",
+        "component": "coolant_system",
+        "defect_type": "coolant_leak",
+        "affected_models": [
+            "XUV700",
+            "Thar"
+        ],
+        "affected_years": [
+            2022,
+            2023
+        ],
+        "root_cause": "Faulty coolant hose clamp from supplier batch B2022-Q3",
+        "occurrence_count": 156,
+        "severity": "high",
+        "corrective_action": "Replace coolant hose clamp with updated part P-CLM-002",
+        "preventive_action": "Updated quality inspection protocol for incoming hose clamps",
+        "status": "implemented",
+        "date_identified": "2023-08-15",
+        "date_resolved": "2023-10-20",
+        "manufacturing_feedback": "Supplier notified, new batch specifications implemented"
+    },
+    {
+        "capa_id": "CAPA002",
+        "component": "battery",
+        "defect_type": "premature_degradation",
+        "affected_models": [
+            "Creta",
+            "Venue"
+        ],
+        "affected_years": [
+            2021,
+            2022
+        ],
+        "root_cause": "Battery cells from supplier X showing early capacity loss in high-temperature regions",
+        "occurrence_count": 423,
+        "severity": "medium",
+        "corrective_action": "Proactive battery replacement for affected vehicles in warranty",
+        "preventive_action": "Changed battery supplier, implemented thermal testing in hot climate simulation",
+        "status": "monitoring",
+        "date_identified": "2024-02-10",
+        "date_resolved": null,
+        "manufacturing_feedback": "Design team evaluating enhanced thermal management for battery compartment"
+    },
+    {
+        "capa_id": "CAPA003",
+        "component": "brake_pads_front",
+        "defect_type": "excessive_wear",
+        "affected_models": [
+            "XUV700",
+            "Scorpio-N"
+        ],
+        "affected_years": [
+            2022,
+            2023
+        ],
+        "root_cause": "Brake pad compound formula issue causing accelerated wear in city driving conditions",
+        "occurrence_count": 287,
+        "severity": "high",
+        "corrective_action": "Replace with updated brake pad compound BP-2024-A",
+        "preventive_action": "New brake pad validation includes extended city driving test cycle",
+        "status": "implemented",
+        "date_identified": "2024-01-05",
+        "date_resolved": "2024-04-15",
+        "manufacturing_feedback": "Brake supplier updated compound formula, new pads in production from April 2024"
+    },
+    {
+        "capa_id": "CAPA004",
+        "component": "ac_compressor",
+        "defect_type": "compressor_failure",
+        "affected_models": [
+            "Seltos",
+            "Carens"
+        ],
+        "affected_years": [
+            2021,
+            2022
+        ],
+        "root_cause": "Compressor bearing failure due to insufficient lubrication in high-usage scenarios",
+        "occurrence_count": 89,
+        "severity": "medium",
+        "corrective_action": "Replace AC compressor, update refrigerant fill procedure",
+        "preventive_action": "Enhanced compressor design with improved bearing lubrication system",
+        "status": "implemented",
+        "date_identified": "2023-11-20",
+        "date_resolved": "2024-03-10",
+        "manufacturing_feedback": "New compressor model with upgraded bearings deployed from March 2024"
+    },
+    {
+        "capa_id": "CAPA005",
+        "component": "suspension_strut",
+        "defect_type": "strut_leak",
+        "affected_models": [
+            "Hector",
+            "Hector Plus"
+        ],
+        "affected_years": [
+            2020,
+            2021
+        ],
+        "root_cause": "Seal degradation in struts exposed to extreme temperature variations",
+        "occurrence_count": 178,
+        "severity": "high",
+        "corrective_action": "Replace front struts with updated sealing design",
+        "preventive_action": "Improved seal material specification for all struts in production",
+        "status": "implemented",
+        "date_identified": "2024-03-01",
+        "date_resolved": "2024-07-15",
+        "manufacturing_feedback": "New seal compound deployed, extended durability testing added to QA"
+    },
+    {
+        "capa_id": "CAPA006",
+        "component": "engine_oil_sensor",
+        "defect_type": "false_readings",
+        "affected_models": [
+            "Innova Crysta",
+            "Fortuner"
+        ],
+        "affected_years": [
+            2020,
+            2021,
+            2022
+        ],
+        "root_cause": "Oil level sensor calibration drift over time",
+        "occurrence_count": 67,
+        "severity": "low",
+        "corrective_action": "Recalibrate sensor during service visits",
+        "preventive_action": "Updated sensor firmware with auto-calibration feature",
+        "status": "monitoring",
+        "date_identified": "2024-05-10",
+        "date_resolved": null,
+        "manufacturing_feedback": "Sensor supplier implementing firmware update, rollout planned Q1 2025"
+    },
+    {
+        "capa_id": "CAPA007",
+        "component": "tyre",
+        "defect_type": "uneven_wear",
+        "affected_models": [
+            "XUV700",
+            "Thar",
+            "Scorpio-N"
+        ],
+        "affected_years": [
+            2022,
+            2023
+        ],
+        "root_cause": "Factory wheel alignment tolerance too wide, causing premature inner edge wear",
+        "occurrence_count": 312,
+        "severity": "medium",
+        "corrective_action": "Perform wheel alignment at first service",
+        "preventive_action": "Tightened factory alignment tolerance from ±0.5° to ±0.2°",
+        "status": "implemented",
+        "date_identified": "2024-02-28",
+        "date_resolved": "2024-05-20",
+        "manufacturing_feedback": "Assembly line alignment equipment recalibrated, new tolerance in effect"
+    }
+]
