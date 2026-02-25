@@ -1,6 +1,6 @@
 """Customer Outreach Agent - Initiates proactive customer contact."""
 from google.adk.agents import Agent
-from ..config import MODEL
+from ..config import LITE_MODEL
 from ..tools.notification_tools import (
     send_voice_notification,
     log_conversation,
@@ -9,7 +9,7 @@ from ..tools.database_tools import get_vehicle_info
 
 customer_outreach_agent = Agent(
     name="customer_outreach_agent",
-    model=MODEL,
+    model=LITE_MODEL,
     description=(
         "Initiates proactive communication with vehicle owners via in-car "
         "voice interface. Introduces maintenance concerns in a friendly, "

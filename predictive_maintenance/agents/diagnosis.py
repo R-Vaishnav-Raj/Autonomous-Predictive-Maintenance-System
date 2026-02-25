@@ -1,6 +1,6 @@
 """Diagnosis Agent - Predicts failures and assigns priority levels."""
 from google.adk.agents import Agent
-from ..config import MODEL
+from ..config import HEAVY_MODEL
 from ..tools.database_tools import (
     get_vehicle_info,
     get_maintenance_history,
@@ -11,7 +11,7 @@ from ..tools.telemetry_tools import detect_anomalies
 
 diagnosis_agent = Agent(
     name="diagnosis_agent",
-    model=MODEL,
+    model=HEAVY_MODEL,
     description=(
         "Performs predictive failure analysis by combining anomaly data with "
         "historical maintenance records and CAPA database. Assigns priority "

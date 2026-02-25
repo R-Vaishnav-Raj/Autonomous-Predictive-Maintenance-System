@@ -1,6 +1,6 @@
 """Customer Engagement Agent - Explains issues and collects consent."""
 from google.adk.agents import Agent
-from ..config import MODEL
+from ..config import LITE_MODEL
 from ..tools.notification_tools import (
     send_voice_notification,
     send_app_notification,
@@ -11,7 +11,7 @@ from ..tools.database_tools import get_vehicle_info
 
 customer_engagement_agent = Agent(
     name="customer_engagement_agent",
-    model=MODEL,
+    model=LITE_MODEL,
     description=(
         "Engages with customers to explain predicted issues in detail, "
         "provide cost estimates, answer questions, and obtain consent "

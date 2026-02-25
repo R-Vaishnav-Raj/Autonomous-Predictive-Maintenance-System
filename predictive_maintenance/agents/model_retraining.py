@@ -1,11 +1,11 @@
 """Model Retraining Agent - Enables continuous learning from service outcomes."""
 from google.adk.agents import Agent
-from ..config import MODEL
+from ..config import HEAVY_MODEL
 from ..tools.database_tools import get_maintenance_history
 
 model_retraining_agent = Agent(
     name="model_retraining_agent",
-    model=MODEL,
+    model=HEAVY_MODEL,
     description=(
         "Monitors prediction accuracy by comparing predicted failures with "
         "actual service outcomes. Identifies model drift and triggers "

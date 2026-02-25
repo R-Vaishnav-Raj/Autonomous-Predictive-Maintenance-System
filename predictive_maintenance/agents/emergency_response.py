@@ -1,6 +1,6 @@
 """Emergency Response Agent - Handles critical failure scenarios."""
 from google.adk.agents import Agent
-from ..config import MODEL
+from ..config import HEAVY_MODEL
 from ..tools.notification_tools import (
     send_voice_notification,
     send_app_notification,
@@ -15,7 +15,7 @@ from ..tools.database_tools import get_vehicle_info
 
 emergency_response_agent = Agent(
     name="emergency_response_agent",
-    model=MODEL,
+    model=HEAVY_MODEL,
     description=(
         "Handles critical failure scenarios requiring immediate attention. "
         "Takes over from normal workflow to ensure driver safety and "

@@ -1,6 +1,6 @@
 """Logistics Agent - Manages parts forecasting and inventory."""
 from google.adk.agents import Agent
-from ..config import MODEL
+from ..config import LITE_MODEL
 from ..tools.scheduling_tools import (
     check_parts_availability,
     reserve_parts,
@@ -10,7 +10,7 @@ from ..tools.database_tools import get_maintenance_history
 
 logistics_agent = Agent(
     name="logistics_agent",
-    model=MODEL,
+    model=LITE_MODEL,
     description=(
         "Forecasts and manages spare parts requirements for upcoming services. "
         "Checks inventory availability, reserves parts, and coordinates with "
